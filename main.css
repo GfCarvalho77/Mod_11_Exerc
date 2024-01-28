@@ -106,13 +106,16 @@ button{
         display: block;
         
     }
-   div.container{
-        max-width: 100%;
+   .container{
+        max-width: 90%;
 
     }
     .sobre-loja{
         text-align: center;
         width: 100%; 
+    }
+    h1{
+       
     }
     h3{
         text-align: left;
