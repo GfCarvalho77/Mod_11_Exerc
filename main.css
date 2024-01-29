@@ -108,18 +108,13 @@ button{
     }
    .container{
         max-width: 90%;
-
     }
     .sobre-loja{
         text-align: center;
         width: 100%; 
     }
-    h1{
-       
-    }
-    h3{
+      h3{
         text-align: left;
-
     }
 
     img{
@@ -129,6 +124,7 @@ button{
     .container .sobre-loja img{
         align-items: center;
         width: 100%;
+        padding-bottom: 2%;
     }
     div.produtos{
         width: 100%;
@@ -143,5 +139,47 @@ button{
     }
 }
 @media screen and (max-width:640px){
+    .container .sobre-loja{
+        max-width: 1023px;
+        width: 100%;
+        margin: 0 auto;
+        display: block;
+        
+    }
+   .container{
+        max-width: 85%;
+    }
+    .sobre-loja{
+        text-align: center;
+        width: 100%; 
+    }
+  
+    h3{
+        text-align: left;
 
+    }
+
+    img{
+        width: 100%;
+        padding-bottom: 15px;
+    }
+    .container .sobre-loja img{
+        align-items: center;
+        width: 100%;
+        padding-bottom: 2%;
+    }
+    div.produtos{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 100%;
+        column-gap: 2%;
+        row-gap: 0%;
+        align-items: center;
+    }
+    form{
+        text-align: right;
+}
+
+    article.produto{
+        row-gap: 5%;}
 } 
